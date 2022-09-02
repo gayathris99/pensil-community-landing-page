@@ -2,7 +2,10 @@
   <q-page>
     <div class="row">
       <menu-bar class="col-auto" v-if="$q.screen.gt.xs" />
-      <hero-section class="col q-mt-xl q-mx-xl" />
+      <div class="col q-mt-xl">
+        <hero-section class="q-mx-xl" />
+        <why-coder-community />
+      </div>
     </div>
   </q-page>
 </template>
@@ -11,9 +14,10 @@
 import { defineComponent } from "vue";
 import MenuBar from "components/MenuBar.vue";
 import HeroSection from "components/HeroSection.vue";
+import WhyCoderCommunity from "components//WhyCoderCommunity.vue";
 
 export default defineComponent({
   name: "IndexPage",
-  components: { MenuBar, HeroSection },
+  components: { MenuBar, HeroSection, WhyCoderCommunity },
 });
 </script>
