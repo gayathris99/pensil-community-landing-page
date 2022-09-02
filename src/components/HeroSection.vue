@@ -6,7 +6,7 @@
     <div class="q-mx-auto" v-if="$q.screen.width < 1024">
       <img src="~assets/heroimage.webp" />
     </div>
-    <div class="col-8" :class="{ 'q-mx-auto': $q.screen.width < 1024 }">
+    <div class="col-auto" :class="{ 'q-mx-auto': $q.screen.width < 1024 }">
       <div class="fw-700 fs-36 q-mt-xl">
         <span class="linear-color">Community</span> for brilliant
         <br />
@@ -15,16 +15,18 @@
       <div class="fw-500 q-mt-md fs-16">
         Get help from any corner of the world
       </div>
-      <q-btn
-        label="Become an active member today"
-        rounded
-        no-caps
-        style="
-          background: -webkit-linear-gradient(#5b86e5, #36d1dc);
-          color: white;
-        "
-        class="q-mt-xl fw-500 fs-20 q-py-sm q-px-md"
-      />
+      <div>
+        <q-btn
+          label="Become an active member today"
+          rounded
+          no-caps
+          style="
+            background: -webkit-linear-gradient(#5b86e5, #36d1dc);
+            color: white;
+          "
+          class="q-mt-xl fw-500 fs-20 q-py-sm q-px-md"
+        />
+      </div>
     </div>
     <div class="col-4 q-ml-md" v-if="$q.screen.width >= 1024">
       <img src="~assets/heroimage.webp" />
