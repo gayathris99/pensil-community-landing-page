@@ -6,8 +6,8 @@
   "author": "gayathris99 <gayathri11499@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "quasar build",
-    "start": "node server.js",
+    "build": "npx quasar build -m ssr",
+    "start": "cd dist/ssr; npm i; npm start",
     "heroku-postbuild": "yarn && yarn build",
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
