@@ -2,6 +2,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  max-width: 1500px;
+  margin: 0 auto !important;
+  float: none !important;
 }
 
 .fw-700 {
@@ -53,6 +56,9 @@ body {
 
 .color-primary-blue {
   color: $primary-blue;
+}
+.color-secondary-blue {
+  color: $secondary-blue;
 }
 .bg-secondary-blue {
   background-color: $secondary-blue;
