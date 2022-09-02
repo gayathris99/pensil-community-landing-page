@@ -41,11 +41,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.linear-color {
-  background: -webkit-linear-gradient(#5b86e5, #36d1dc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .linear-color-btn {
   color: #5b86e5;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="q-mt-xl text-white main-container q-pa-lg">
+  <div class="q-mt-xl text-white main-container q-pa-lg q-ml-sm">
     <div class="fw-700 fs-32">Why Coder Community?</div>
     <div class="details-container row q-mt-sm fs-20 text-justify">
       <div>
